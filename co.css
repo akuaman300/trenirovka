@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.box {
+    background-color: rgb(0, 36, 27);
+    border: solid black 1px;
+    border-radius: 10px;
+    height: 100px;
+    width: 1170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cvet{
+    color:aliceblue;
+    margin-top: -25px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.cvet2{
+    color: rgb(163, 87, 0);
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

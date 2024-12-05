@@ -1,0 +1,42 @@
+.large-box {
+    border: solid rgb(57, 222, 197) 1px;
+    border-radius: 10px;
+    margin:auto;
+    width: 1000px;
+    display: flex;
+    background-color: rgb(57, 222, 197);
+    height: 180px;
+    justify-content: center;
+}
+.vnutrenni {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ikonka {
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+.text {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: aliceblue;
+    padding-top: 10px;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,monospace;
+}
+.supervnurtenni{
+    display: flex;
+    flex-direction: column;;
+}
+.shrift{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 5px;
+}
+

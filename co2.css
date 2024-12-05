@@ -1,0 +1,61 @@
+.box {
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.vnutr {
+    display: flex;
+    border-radius: 10px;
+    height: 300px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #dedddd;
+}
+.text {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ikonki {
+    font-size: 40px;
+    color: aliceblue;
+}
+.pravi-blok{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    width: 50px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.ikonki2{
+    margin-bottom: -100px;
+    color: rgb(0, 161, 67);
+    font-size: 40px;
+}
+.border{
+    border: 1px solid rgb(0, 161, 67);
+    background-color: rgb(0, 161, 67);
+    border-radius: 50%;
+    height: 45px;
+    margin-bottom: 30px;
+}
+.border1{
+    display: flex;
+    border: 3px solid rgb(0, 161, 67);
+    height: 40px;
+    width: 35px;
+    border-radius: 50%;
+    justify-content: center;
+    background-color: aliceblue;
+    margin-bottom: -60px;
+}
